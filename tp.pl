@@ -1,4 +1,4 @@
-# by Achour Younes and houcem el imam
+# by Achour Younes and houcem elimam
 :- dynamic task/4.
 
 create_task(Id, Description, Assignee) :-

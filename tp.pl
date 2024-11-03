@@ -32,4 +32,4 @@ display_completed_tasks :-
     forall(task(Id, Description, Assignee, true),
            (format("Task ~w:~n- Description: ~w~n- Assignee: ~w~n- Completion status: true~n",
                    [Id, Description, Assignee]))).
-?- create_task(2, 'Design homepage layout', 'Bob').
+?- create_task(2, 'create an ai module', 'houcem').
